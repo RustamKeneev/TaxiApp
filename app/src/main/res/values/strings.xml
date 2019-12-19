@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TaxiApp</string>
+    <string name="passenger">Клиент</string>
+    <string name="driver">Водитель</string>
+    <string name="user_password">пароль пользователя</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="email">Email</string>
+    <string name="Password_confirmation">подтверждение пароля</string>
+    <string name="tap_to_login">нажмите, чтобы войти</string>
+    <string name="passenger_sign_in">пассажирский вход</string>
+    <string name="driver_sign_in">Водительский вход</string>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="settings">настройка</string>
+    <string name="sign_out">Выйти</string>
+    <string name="title_activity_passenger_maps">Map</string>
+    <string name="order_taxi">Заказ Такси</string>
+</resources>

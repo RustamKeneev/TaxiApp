@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PassengerMapsActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/sign_out"
+        android:text="@string/sign_out"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        map:layout_constraintLeft_toLeftOf="parent"
+        map:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:id="@+id/taxi_ordering_button"
+        map:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/order_taxi"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
